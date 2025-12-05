@@ -39,7 +39,7 @@ from dateutil.parser import parse as dateparse
 # ----------------------------
 # 配置（可修改）
 # ----------------------------
-DEFAULT_INPUT = "data/table_data_all.xlsx"
+DEFAULT_INPUT = "../data/table_data_all.xlsx"
 DEFAULT_OUTDIR = "ai/output"
 RANDOM_SEED = 42
 

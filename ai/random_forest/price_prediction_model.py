@@ -5,7 +5,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 import numpy as np
 
 # --- 1. 数据加载与初始查看 ---
-file_path = 'data/table_data_all.xlsx'
+file_path = '../../data/table_data_all.xlsx'
 try:
     # 尝试以GBK编码读取，因为中文CSV文件常使用GBK或GB2312
     df = pd.read_excel(file_path)

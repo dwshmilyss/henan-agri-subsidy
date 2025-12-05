@@ -7,7 +7,7 @@ import joblib  # 用于保存和加载模型及编码器
 import os
 
 # --- 全局常量和配置 ---
-FILE_PATH = 'data/table_data_all.xlsx'
+FILE_PATH = '../../data/table_data_all.xlsx'
 TARGET_COL = '单台销售价格(元)'
 DATE_COL = '购机日期'
 YEAR_COL = '购机年份'  # 新增：年份特征
